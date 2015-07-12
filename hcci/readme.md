@@ -21,4 +21,4 @@ HCCI engines typically operate with premixed fuel-air mixtures in fuel-lean cond
 
 
 
-<a href="max_plomer_hcci_code.m">View HCCI ENGINE CODE</a>
+<a href="max_plomer_hcci_code.m">VIEW HCCI ENGINE CODE</a>
