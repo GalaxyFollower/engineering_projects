@@ -1,6 +1,6 @@
 <h1>CFD Projects </h1>
 
-(Fortran Linear equation solver, heat conduction, heat convection)
+(topics: Fortran Linear equation solver, heat conduction, heat convection)
 
 HW1: Fortran Linear equation solver
 
