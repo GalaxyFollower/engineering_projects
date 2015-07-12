@@ -25,8 +25,8 @@ The objective of this project is to perform this nozzle investigation using a CF
 
 
 
-<a href="max_plomer_cfd_paper.pdf">DOWNLOAD PAPER</a>
+<a href="max_plomer_cfd_paper.pdf">VIEW PAPER</a>
 
 
 
-<a href="max_plomer_cfd_presentation.pdf">DOWNLOAD PRESENTATION</a>
+<a href="max_plomer_cfd_presentation.pdf">VIEW PRESENTATION</a>
