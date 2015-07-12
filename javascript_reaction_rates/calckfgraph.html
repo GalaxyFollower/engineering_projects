@@ -1,0 +1,59 @@
+<html>
+<head>
+
+<title>JSChart</title>
+<script language="JavaScript" src="kf.js"></script> 
+<script type="text/javascript" src="jscharts.js"></script>
+
+</head>
+<body>
+
+<div id="graph">Loading graph...</div>
+
+<script language="JavaScript">
+	<!--variables-->
+	var A=3.547e15;
+	var B=-0.406;
+	var Ea=1.6599e4;
+	var T = [600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700];
+	
+	<!--output to screen-->
+	document.write("A = "+A.toExponential()+" (cgs units)<br />");
+	document.write("B = "+B+" (dimensionless)<br />");
+	document.write("Ea = "+Ea.toExponential()+" (cal/mol)<br />");
+	document.write("T = ");
+	var i;
+	for (i=0; i<T.length; i++) {
+		document.write(T[i]); 
+		if(i<(T.length-1)) document.write(", "); 
+	}
+	document.write("<br />");
+	
+	<!--calculate kf-->
+	var myData = new Array(T.length);
+	for (i=0; i<T.length; i++) {
+		myData[i] = new Array(2);
+		myData[i][0]=T[i];
+		myData[i][1]=kf(A,B,Ea,T[i]);
+	}
+	
+	<!--output to screen-->
+	document.write("myData = ");
+	for (i=0; i<T.length; i++) {
+		document.write(myData[i][0]+", "); 
+		document.write(myData[i][1]+"<br />");
+	}
+	
+	<!--create graph-->
+	var myChart = new JSChart('graph', 'line');
+	myChart.setDataArray(myData);
+	myChart.setAxisNameX('Temperature (K)');
+	myChart.setAxisNameY('kf');
+	myChart.setTitle('log10 kf (cgs units) vs Temperature (K)');
+	myChart.setSize(800, 400);
+	myChart.draw();
+	
+</script>
+
+</body>
+</html>
