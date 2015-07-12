@@ -18,7 +18,7 @@ Same system as Project B, but a third star of radius R 4 rotates about the star 
 
 
 
-<div class="downloads">
+
 <a href="max_plomer_dynamics_projecta_code.m">VIEW PROJECT A CODE</a>
 
 
