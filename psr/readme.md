@@ -1,6 +1,6 @@
 <h1>Unsteady Perfectly Stirred Reactor Analysis </h1>
 
-
+<strong>Project description:</strong>
 
 Perfectly stirred reactors are characterized by a reactor volume, residence time or mass flow rate, gas temperature, the incoming temperature and mixture composition. The model described here accounts for finite-rate elementary chemical reactions in the gas phase. The governing equations are a system of nonlinear algebraic relations.
 
