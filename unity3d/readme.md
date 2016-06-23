@@ -1,4 +1,4 @@
-# Unity3d Game - Predator Drone Tactics: 
+# Unity3d Game - Predator Drone Tactics 
 
 <a href="https://github.com/maxplomer/engineering_projects/blob/master/unity3d/demo.zip?raw=true">Download Demo</a>
  
